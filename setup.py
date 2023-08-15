@@ -6,7 +6,7 @@ def readme():
             return f.read()
 
 setup(
-    name = 'content-hash',
+    name = 'rotki-content-hash',
     description = 'Python implementation of EIP 1577 content hash',
     long_description = readme(),
     long_description_content_type='text/markdown',
