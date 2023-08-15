@@ -1,0 +1,19 @@
+[project]
+name = "content_hash"
+version = "0.0.3"
+authors = [
+    {name = "Filip Š", email = "projects@filips.si"},
+]
+readme = "README.md"
+requires-python = ">=3.5"
+keywords = ["ethereum"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+]
+license = {file = "LICENSE.md"}
+dependencies = [
+  'py-multiformats-cid',
+  'py-multicodec',
+  'py-multihash',
+]
